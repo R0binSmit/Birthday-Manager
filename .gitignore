@@ -1,0 +1,6 @@
+source/.vs/
+source/bin/
+source/obj/
+.vs/
+Birthday Manager.csproj.user
+.git/
