@@ -1,4 +1,6 @@
-﻿namespace Birthday_Manager;
+﻿using Birthday_Manager.Models;
+
+namespace Birthday_Manager;
 
 public static class MauiProgram
 {

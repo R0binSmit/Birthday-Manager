@@ -48,4 +48,18 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Remove="View1.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\AddPerson.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Resources\Raw\" />
+	</ItemGroup>
+
 </Project>

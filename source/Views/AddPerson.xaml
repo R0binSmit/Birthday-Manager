@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Birthday_Manager.Views.AddPerson"
+             Title="AddPerson">
+    <VerticalStackLayout>
+        <Entry x:Name="FirstName" FontSize="Medium" Placeholder="First name" />
+        <Entry x:Name="LastName" FontSize="Medium" Placeholder="Last name" />
+
+        <HorizontalStackLayout>
+            <Label FontSize="Medium" Text="Birthday:" />
+            <DatePicker x:Name="Birtday" FontSize="Medium" Format="dd MMMM yyyy" />
+        </HorizontalStackLayout>
+        <Button Text="Add Person" FontSize="Medium" Clicked="OnAddPerson" />
+    </VerticalStackLayout>
+</ContentPage>
